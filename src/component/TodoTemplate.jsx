@@ -3,7 +3,7 @@ import "./TodoTemplate.css";
 const TodoTemplate = ({ children }) => {
   return (
     <div className="TodoTemplate">
-      <div className="title">일정 관리</div>
+      <div className="title">Todo List</div>
       <div className="content">{children}</div>
     </div>
   );
